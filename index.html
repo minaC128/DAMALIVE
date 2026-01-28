@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAMALIVE - 孕期伴侶</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4f7870",
+              secondary: "#eeb0ac",
+              peach: "#f5d5d3",
+              background: "#fcfaf9",
+              "text-main": "#131615"
+            },
+            fontFamily: {
+              sans: ['Manrope', 'Noto Sans TC', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style type="text/css">
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .filled {
+        font-variation-settings: 'FILL' 1;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        -webkit-tap-highlight-color: transparent;
+        overflow-x: hidden;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "firebase/": "https://esm.sh/firebase@^12.8.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-text-main font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>

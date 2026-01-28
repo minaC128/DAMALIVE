@@ -1,0 +1,7 @@
+{
+  "name": "DAMALIVE Pregnancy Companion",
+  "description": "A comprehensive pregnancy and parenting companion app featuring growth tracking, knowledge encyclopedia, and an empathetic AI assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
